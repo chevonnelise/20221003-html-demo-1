@@ -1,0 +1,39 @@
+#bg-color{
+    height:100vh;
+    background-color:yellowgreen;
+}
+
+/* 0px to 600px */
+@media screen and (max-width: 600px){
+    div{
+        background-color:cornflowerblue;
+    }
+}
+
+/* 600px and above */
+@media screen and (min-width: 600px){
+    #bg-color{
+        background-color:darkblue;
+    }
+    #box-1{
+        display:block;
+    }
+    /* div{
+        background-color:mediumpurple;
+    } */
+}
+
+@media screen and (min-width: 900px){
+    #bg-color{
+        background-color:aqua;
+    }
+    #box-1{
+        display:block;
+    }
+}
+
+@media print{
+    #para-1{
+        display:none;
+    }
+}
